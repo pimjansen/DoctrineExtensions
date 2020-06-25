@@ -1,5 +1,5 @@
 {
-    "name": "gedmo/doctrine-extensions",
+    "name": "pimjansen/doctrine-extensions",
     "type": "library",
     "description": "Doctrine2 behavioral extensions",
     "keywords": [
@@ -36,7 +36,7 @@
     "require": {
         "php": "^7.2",
         "behat/transliterator": "~1.2",
-        "doctrine/common": "^2.10"
+        "doctrine/common": "^2.10 | ^3.0"
     },
     "provide": {
         "ext-mongo": "1.6.12"
